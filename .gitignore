@@ -1,3 +1,4 @@
 path_file.txt
 *.sh
 bin
+.DS_Store
