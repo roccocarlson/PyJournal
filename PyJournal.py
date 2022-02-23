@@ -1,7 +1,6 @@
 # Rocco Carlson
 # A terminal-based journal that automatically stores journal data in a text file
 
-from ast import And
 import os
 from datetime import date
 
