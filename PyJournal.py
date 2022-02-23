@@ -6,7 +6,7 @@ import os
 from datetime import date
 
 # Directory that journal is stored in
-with open("/Users/roccocarlson/Documents/PythonStuff/PyJournal/path_file.txt", "r") as file:
+with open("/path_file.txt", "r") as file:
     parent_dir = file.read()
     
 d = date.today()
