@@ -16,7 +16,7 @@ monthsOfYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 
 
 year_dir = os.path.join(parent_dir, str(d.year))
 month_dir = os.path.join(year_dir, str(d.month))
-day_path = os.path.join(month_dir, str(d.day))
+day_path = os.path.join(month_dir, str(d.day))+".txt"
 
 if os.path.exists(year_dir) == False:
     os.mkdir(year_dir)
